@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>សំណុំបែបបទ​​ និង ធាតុចូល form & input</title>
+    <style>
+        #hhh {
+            font-size: medium;
+            color: bisque;
+        }
+        
+        #pwd {
+            color: blue;
+            border-radius: 5px;
+            background-color: aqua;
+        }
+        
+        #rr {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+    <h1>សំណុំបែបបទ​​ និង ធាតុចូល form & input</h1>
+    <form action="" method="GET">
+
+        <div>
+            <label for="text" id="hhh">ប្រអប់អត្ថបទ</label>
+            <input type="text" id="txt" name="txt">
+        </div>
+
+        <div>
+            ប្រអប់ពាក្យសម្ងាត់
+            <input type="password" id="pwd" name="pwd">
+        </div>
+
+        <div>
+            <label>ប្រអប់អត្ថបទច្រើនបន្ទាត់</label>
+            <textarea name="tea" id="tea" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label>ប្រអប់ធិកទី១</label><input type="checkbox" id="chk1" name="chk1">
+            <label>ប្រអប់ធិកទី២</label><input type="checkbox" id="chk2" name="chk2">
+            <label>ប្រអប់ធិកទី3</label><input type="checkbox" id="chk3" name="chk3">
+        </div>
+        <div>
+            <label id="rr">បូតុងជម្រើសទី១</label>
+            <input type="radio" id="rdo1" name="rdo">
+            <label>បូតុងជម្រើសទី២</label>
+            <input type="radio" id="rdo2" name="rdo">
+            <label>បូតុងជម្រើសទី៣</label>
+            <input type="radio" id="rdo3" name="rdo">
+        </div>
+        <div>
+            <label>បញ្ជីរាយទិន្នន័យអោយរើស</label>
+            <select name="lst" id="lst"></select>
+            <option>ជម្រើសទី១</option>
+            <option>ជម្រើសទី២</option>
+            <option>ជម្រើសទី៣</option>
+        </div>
+
+        <input type="date"> password
+        <input type="password" minlength="8">
+        <input type="range">
+
+    </form>
+</body>
+
+</html>
